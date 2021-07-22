@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Wish Gaming</title>
+</head>
+<body>
+<div id="main">
+    <div id="total">
+        <div id="title">
+            <h1>Paiement par carte de crédit</h1>
+            <h2>Frais de transaction <span>0.00€</span></h2>
+        </div>
+
+        <div id="case">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p id="cardNumber">&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;</p>
+                        <div id="bottom">
+                            <p id="cardInfos">FULL NAME</p>
+                            <div id="date">
+                                <p id="textMonth">DATE/MONTH</p>
+                                <p id="dateCard">MM/YY</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <div id="rectangle"></div>
+                        <div id="middle">
+                            <div id="whiteRectangle"></div>
+                            <p id="cryptoCard">&bull;&bull;&bull;</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <form id="informations">
+                <label for="number">Numéro de la carte</label>
+                <input type="text" id="number"/><br>
+                <label for="owner">Titulaire de la carte</label>
+                <input type="text" id="owner"/>
+                <div id="bottomInfos">
+                    <div id="expirationDiv">
+                        <label for="expiration">Date d'expiration</label>
+                        <input type="text" id="expiration" placeholder="MM / YY"/>
+                    </div>
+                    <div id="cryptoDiv">
+                        <label for="crypto">Cryptogramme</label>
+                        <input type="text" id="crypto" placeholder="CVC"/>
+                    </div>
+
+                </div>
+                <input type="submit" value="Payer 16.95€"/>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
