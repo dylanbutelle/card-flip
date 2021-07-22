@@ -40,7 +40,7 @@
             </div>
             <form id="informations">
                 <label for="number">Numéro de la carte</label>
-                <input type="text" id="number" pattern="^(4\d{12})|(4\d{15})|^5[1-5]\d{14}" maxlength="19"/><br>
+                <input type="text" id="number" pattern="^((67\d{2})|(4\d{3})|(5[1-5]\d{2})|(6011))(-?\s?\d{4}){3}|(3[4,7])\d{2}-?\s?\d{6}-?\s?\d{5}$" maxlength="19"/><br>
                 <label for="owner">Titulaire de la carte</label>
                 <input type="text" id="owner" pattern="([a-zA-Z',.-]+( [a-zA-Z',.-]+)*){2,30}"/>
                 <div id="bottomInfos">
